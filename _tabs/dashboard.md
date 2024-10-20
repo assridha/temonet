@@ -30,7 +30,7 @@ icon: fas fa-tachometer-alt
 </div>
 
  <script type="module">
-      import { initializeCharts } from '/assets/js/plrr-tradingview.js'; // Importing initializeCharts
+      import { initializeCharts } from '/temonet/assets/js/plrr-tradingview.js'; // Importing initializeCharts
 
       async function fetchData() {
         const bitcoinResponse = await fetch('https://python-server-e4a8c032b69c.herokuapp.com/bitcoin-price');
