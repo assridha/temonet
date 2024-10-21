@@ -30,7 +30,7 @@ icon: fas fa-tachometer-alt
 </div>
 
  <script type="module">
-      import { initializeCharts } from '/temonet/assets/js/plrr-tradingview.js'; // Importing initializeCharts
+      import { initializeCharts } from '/temonet/assets/js/plrr-tradingview.js';
 
         console.log('script loaded successfully')
       async function fetchData() {
