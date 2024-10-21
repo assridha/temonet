@@ -32,7 +32,8 @@ icon: fas fa-tachometer-alt
  <script type="module">
       import { initializeCharts } from '/temonet/assets/js/plrr-tradingview.js';
 
-        console.log('script loaded successfully')
+        console.log('script loaded successfully');
+        
       async function fetchData() {
         const bitcoinResponse = await fetch('https://python-server-e4a8c032b69c.herokuapp.com/bitcoin-price');
         const quantileResponse = await fetch('https://python-server-e4a8c032b69c.herokuapp.com/quantile-price');
